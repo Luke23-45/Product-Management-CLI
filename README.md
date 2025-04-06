@@ -1362,11 +1362,11 @@ node index.js product update <productId> --name <name> --price <price> --descrip
         
     2. Removing product with ID PROD001 from the cart of user with ID user456 (as an administrator):
         Assuming the current session user has isAdmin: true and product:update permission:
-        ```Bash
+         ```Bash
         node index.js cart remove PROD001 --targetUser user456
-        ```
+             ```
         
-        **Output (if the product was found and removed from the target user's cart):**
+        **Output if the product was found and removed from the target user's cart):**
         Product removed successfully with id PROD001
         Updated cart:
         ```JSON
@@ -1382,7 +1382,7 @@ node index.js product update <productId> --name <name> --price <price> --descrip
       
         ```
         
-        ** Output (if the product was not found in the target user's cart):**
+        ** Output if the product was not found in the target user's cart):**
         Product was not found with the id PROD010
         
         ```bash

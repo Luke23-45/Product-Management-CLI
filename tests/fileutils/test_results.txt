@@ -1,0 +1,45 @@
+--- Generating Test Files ---
+File created: test_files\test_exists.txt
+File created: nested/test_ensure_nested.json
+File created: test_ensure_new.json
+File created: test_ensure_exists.json
+File created: test_write.json
+File created: test_read_valid.json
+File created: test_read_invalid.json
+All necessary files have been generated.
+--- Test Files Generated ---
+
+--- Testing fileExists ---
+'./test_files/test_exists.txt' exists: true
+'test_not_exists.txt' exists: false
+
+--- Testing ensureFile ---
+'test_ensure_new.json' created: true
+Content of 'test_ensure_new.json': { message: 'Default data' }
+'test_ensure_exists.json' content (should not change): { existing: true }
+'nested/test_ensure_nested.json' created: true
+Nested directory exists: true
+Content of 'nested/test_ensure_nested.json': { nested: true }
+
+--- Testing writeJSONFile ---
+Writing to 'test_write.json' successful: true
+Content of 'test_write.json': { dataToWrite: 'test' }
+
+--- Testing readJSONFile ---
+Reading valid JSON from 'test_read_valid.json': { key: 'value' }
+Reading invalid JSON from 'test_read_invalid.json' failed: Error parsing JSON file: test_read_invalid.json - Unexpected token 'o', "not a json" is not valid JSON
+Reading non-existent file: Error reading file: non_existent.json - ENOENT: no such file or directory, open 'C:\Users\Hellx\Documents\Programming\Frontend\nodejs\Product Management CLI\tests\fileutils\non_existent.json'
+
+--- Cleaning Up Test Files ---
+--- Cleaning up test files ---
+Deleted file: test_files\test_exists.txt
+Deleted file: test_ensure_new.json
+Deleted file: test_ensure_exists.json
+Deleted file: test_files\nested\test_ensure_nested.json
+Deleted file: test_write.json
+Deleted file: test_files\test_read_valid.json
+Deleted file: test_files\test_read_invalid.json
+Deleted directory: test_files\nested
+Deleted directory: test_files
+--- Cleanup complete ---
+--- Test Files Cleanup Done ---

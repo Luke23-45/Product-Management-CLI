@@ -1,0 +1,19 @@
+{
+  "userId": "78",
+  "username": "krishna__",
+  "isAdmin": false,
+  "permissions": [
+    "product:view",
+    "product:add",
+    "product:update",
+    "product:delete",
+    "cart:view",
+    "cart:add",
+    "cart:remove",
+    "cart:update",
+    "order:create",
+    "order:view",
+    "order:update",
+    "order:delete"
+  ]
+}

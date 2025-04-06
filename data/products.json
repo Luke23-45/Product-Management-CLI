@@ -1,0 +1,38 @@
+[
+  {
+    "id": "118",
+    "userId": "78",
+    "name": "New Product",
+    "price": 25.99,
+    "description": "A brand new product",
+    "category": "Electronics",
+    "inventory": 4
+  },
+  {
+    "id": "119",
+    "userId": "78",
+    "name": "The Great Novel",
+    "price": 19.95,
+    "description": "A captivating story about love and loss",
+    "category": "Books",
+    "inventory": 194
+  },
+  {
+    "id": "120",
+    "userId": "78",
+    "name": "Cotton T-Shirt",
+    "price": 12.5,
+    "description": "Comfortable and breathable cotton t-shirt",
+    "category": "Apparel",
+    "inventory": 460
+  },
+  {
+    "id": "121",
+    "userId": "78",
+    "name": "Ceramic Mug",
+    "price": 8.75,
+    "description": "Hand-painted ceramic coffee mug",
+    "category": "Home Goods",
+    "inventory": 146
+  }
+]

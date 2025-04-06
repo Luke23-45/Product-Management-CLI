@@ -1,0 +1,22 @@
+[
+  {
+    "userId": "78",
+    "username": "krishna__",
+    "password": "46792691",
+    "isAdmin": false,
+    "permissions": [
+      "product:view",
+      "product:add"
+    ]
+  },
+  {
+    "userId": "88",
+    "username": "newuser",
+    "password": "650751762",
+    "isAdmin": false,
+    "permissions": [
+      "product:view",
+      "cart:view"
+    ]
+  }
+]

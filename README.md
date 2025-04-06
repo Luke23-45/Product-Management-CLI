@@ -1181,7 +1181,7 @@ node index.js product update <productId> --name <name> --price <price> --descrip
         **Potential Output (if the product is not already in the cart):**
         
         ```JSON
-      [
+             [
               {
                 "cartId": "CART003",
                 "productId": "PROD003",
@@ -1189,7 +1189,7 @@ node index.js product update <productId> --name <name> --price <price> --descrip
                 "price": 49.99,
                 "total": 99.98
               }
-     ]
+           ]
         ```
         
         (Assuming the user's ID is 78 and this is their first item in the cart)

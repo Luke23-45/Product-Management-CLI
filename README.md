@@ -44,7 +44,7 @@
 
 
 
-- #**Introduction**
+# **Introduction**
 
 
 This document provides a comprehensive guide to the Product Management Command Line Interface (CLI), a  tool designed to streamline the management of products, shopping carts, and orders. 

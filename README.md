@@ -73,7 +73,7 @@ The Product Management CLI is designed to be run directly from its source code. 
 
 1. **Clone the Repository:** If you haven't already, clone the repository containing the CLI's source code to your local machine using Git:
     ```Bash
-    git clone [<repository_url>](https://github.com/Luke23-45/Product-Management-CLI)
+    git clone https://github.com/Luke23-45/Product-Management-CLI
     cd Product-Management-CLI
     ```
 
